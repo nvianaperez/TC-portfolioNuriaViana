@@ -1,0 +1,22 @@
+.wrapper {
+    border : orange solid 40px;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color : grey;
+}
+#logo {
+    padding: 10px 10px 10px;
+}
+#nav-contact {
+    padding: 10px 10px 10px;
+}
+#menu {
+    display : flex;
+    flex-flow: row-wrap;
+    justify-content: space-between;
+}
+
+#nav { 
+    display : flex;
+}
