@@ -1,10 +1,11 @@
 .wrapper {
     border : orange solid 40px;
 }
-p {
+* {
     font-family: 'Ubuntu', sans-serif;
     color : grey;
 }
+
 #logo {
     padding: 10px 10px 10px;
 }
@@ -19,4 +20,25 @@ p {
 
 #nav { 
     display : flex;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 30vw;
+    margin: 1rem;
+    padding: 1rem;
+}
+input[placeholder] {
+    font-size: 1.2rem;
+}
+label {
+    font-size: 1.5rem;
+}
+.submit {
+    max-width: 10vw;
+    text-align: center;
 }
