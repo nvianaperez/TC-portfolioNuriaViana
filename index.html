@@ -1,67 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <!--header-->
-        <header class="header wrapper-child">
-            <div id="menu">
-                <div id="logo" class="menu-child">
-                    <img src="img/logos/img-high.jpeg" alt="logo Nuria Viana" width="100px" hieght="50px">
-                    <p>Front End Dev</p>
-                </div>
-                <div id="nav" class="menu-child">
-                    <ul>
-                        <li><a href="#" target="_blank">Detail</a></li>
-                        <li><a href="#" target="_blank">Client talking</a></li>
-                    </ul>
-                </div>
-                <div id="nav-contact" class="menu-child">
-                    <button>
-                        <i>xx</i>
-                        <a href="#" target="_blank">Contact</a>
-                    </button>
-                </div>
-            </div>
-        </header>
-        <!--Title-->    
-        <div class="section-title wrapper-child">
-            <h1>Hi There, I'm Nuria</h1>
+      <!--header-->
+      <header class="header container">
+        <div class="menu">
+          <div id="logo" class="menu-child">
+            <img src="img/img-high.jpeg" alt="logo Nuria Viana" width="25%" />
+            <p>Front End Dev</p>
+          </div>
+          <div id="nav" class="menu-child">
+            <ul class="flex-row">
+              <li><a href="#" target="_blank">Detail</a></li>
+              <li><a href="#" target="_blank">Client talking</a></li>
+            </ul>
+          </div>
+          <div id="nav-contact" class="menu-child">
+            <button>
+              <i>xx</i>
+              <a href="#" target="_blank">Contact</a>
+            </button>
+          </div>
         </div>
-        <!--articles-->
-        <div class="section-article wrapper-child">
-            <img src="./img/mainImage.png" alt="Nuria's profile"/>
-            <div id="about-me">
-                <h3><pre>// About Me</pre></h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Laudantium architecto qui, totam dolore optio explicabo 
-                    praesentium repudiandae sed, beatae facilis velit ullam 
-                    consequatur eum sapiente nihil neque! Magni, numquam 
-                    necessitatibus?</p>
-            </div>
-        </div>
-        <div class="section-article wrapper-child">
-            <div class="container-item">
-                <h6><strong>GET CV</strong></h6>
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </div>
-        </div>
+      </header>
+      <!--Title-->
+      <div class="section-title container">
+        <h1>Hi There, I'm Nuria</h1>
+      </div>
 
+      <!--articles-->
+      <div class="section-article container">
+        <img src="./img/mainImage.jpg" alt="Nuria's profile" width="30%" />
+        <div id="about-me">
+          <h2><pre>// About Me</pre></h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            architecto qui, totam dolore optio explicabo praesentium repudiandae
+            sed, beatae facilis velit ullam consequatur eum sapiente nihil
+            neque! Magni, numquam necessitatibus?
+          </p>
+        </div>
+      </div>
+      <div class="section-article container">
+        <div class="container-item">
+          <h4><strong>GET CV</strong></h4>
+          <i class="logo-linkedin"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></i>
+        </div>
+        <div class="container-item">
+          <h4><strong>PORTFOLIO</strong></h4>
+        </div>
+      </div>
+      <div class="section-article container">
+        <ion-icon name="logo-html5"></ion-icon>
+        <ion-icon name="logo-css3"></ion-icon>
+        <ion-icon name="logo-javascript"></ion-icon>
+        <ion-icon name="logo-github"></ion-icon>
+        <img src="img/logos/React logo.png" width="10%" />
+        <img src="img/logos/logo Bootstrap transp.png" width="10%" />
+      </div>
+      <div class="section-article container">
+        <img src="img/logos/logo html5.png" width="10%" />
+        <img src="img/logos/logo css3.jpg" width="10%" />
+        <img src="img/logos/logo JS ES6.png" width="10%" />
+        <img src="img/logos/React logo.png" width="10%" />
+        <img src="img/logos/logo Bootstrap transp.png" width="10%" />
+        <img src="img/logos/logo-GitHub.png" width="10%" />
+      </div>
+      <!--footer-->
+      <footer class="footer">Copyright &copy; 2022 by Nuria Viana</footer>
     </div>
 
-
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
