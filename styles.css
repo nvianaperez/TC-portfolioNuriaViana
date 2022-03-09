@@ -4,50 +4,146 @@ body {
   border: 0;
 }
 .wrapper {
-  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 * {
   font-family: "Ubuntu", sans-serif;
   color: grey;
 }
-
-.header {
-  border: 2px solid black;
-  background-color: lightcoral;
-  height: 15vh;
+/*HEADER*/
+.container-medium {
+  width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-large {
+  width: 70rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+.header {
+  height: 15vh;
+  position: sticky;
+}
 .menu {
   display: flex;
   flex-flow: row-wrap;
-  /* align-items: center; */
-  /* justify-content: space-between; */
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
 }
 #logo {
-  max-width: 25%;
+  flex: 2;
+  font-size: 1.1rem;
 }
 #nav {
-  max-width: 50%;
-}
-#nav-contact {
-  max-width: 25%;
-}
-
-/* .flex-row {
+  flex: 5;
   display: flex;
   flex-flow: row-wrap;
-  justify-content: space-between;
-} */
-
-.section-title {
-  border: 2px solid black;
-  background-color: lightblue;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  width: 145px;
+  font-size: 1.1rem;
+  background-color: lightgray;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+button:hover {
+  font-size: 1.3rem;
+}
+#nav-contact {
+  flex: 2;
+  width: 145px;
+  font-size: 1.1rem;
+  background-color: rgb(241, 241, 121);
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+}
+.nav-contact button {
+  flex: 1 auto;
 }
 
-.section-article {
-  border: 2px solid black;
-  background-color: lightgreen;
+/*TITLE*/
+
+.section-title {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 15px;
+}
+
+/*ARTICLES*/
+
+.main-profile {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+  column-gap: 40px;
+  padding: 35px;
+}
+.main-img {
+  border-radius: 40%;
+  box-shadow: 10px 10px 5px rgb(241, 241, 121);
+}
+#about-me p {
+  word-spacing: 0.6rem;
+  line-height: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.cv-portfolio {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  column-gap: 50px;
+  padding: 35px;
+}
+.cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.tools {
+  background-color: rgb(241, 241, 121);
+  border-radius: 4px;
+  opacity: 90%;
+  padding: 35px;
+  margin-top: 35px;
+}
+.tool-item {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3.8rem;
+}
+.icon {
+  height: 5rem;
+}
+.icon-react {
+  height: 60.8px;
+  width: auto;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: lightgray;
+  padding: 25px;
+  text-align: center;
 }
 
 .container-form {
