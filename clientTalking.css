@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: grey;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-large {
+  width: 70rem;
+  margin: 0 auto;
+}
+.container-medium {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+
+.menu {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  border-top: 5vh solid lightgray;
+}
+.logo {
+  flex: 2;
+}
+.logo img {
+  width: 50%;
+  padding: 10px 0;
+}
+.nav {
+  flex: 3;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  width: 145px;
+  font-size: 1.1rem;
+  background-color: lightgray;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+button:hover {
+  font-size: 1.3rem;
+}
+.nav-contact {
+  flex: 2;
+  width: auto;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: right;
+}
+.nav-contact button {
+  flex: 1 auto;
+  border: 5px solid rgb(241, 241, 121);
+}
+
+/*TITLE*/
+
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+/*ARTICLES*/
+.flex-article {
+  display: flex;
+  flex-direction: column;
+}
+.jumbotron {
+  border: 1px solid black;
+  flex: 6;
+}
+.client-1 {
+  align-self: flex-end;
+  flex: 3;
+  background-color: rgb(241, 241, 121);
+  border-radius: 4px;
+  opacity: 60%;
+  padding: 35px;
+  margin-top: 10%;
+  font-size: 1.4rem;
+  width: 60%;
+}
+.client-2 {
+  flex: 1;
+  background-color: rgb(241, 241, 121);
+  border-radius: 4px;
+  opacity: 60%;
+  padding: 35px;
+  margin-top: 10%;
+  font-size: 1.4rem;
+  width: 80%;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: lightgray;
+  padding: 25px;
+  text-align: center;
+}

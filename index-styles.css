@@ -47,28 +47,38 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-button {
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-size: 1.3rem;
+}
+.container-a {
   width: 145px;
   font-size: 1.1rem;
   background-color: lightgray;
   border: none;
   border-radius: 4px;
   padding: 10px;
+  text-align: center;
 }
-button:hover {
-  font-size: 1.3rem;
-}
+
 .nav-contact {
   flex: 2;
-  width: auto;
+  width: 145px;
   font-size: 1.1rem;
   border: none;
   border-radius: 4px;
   padding: 5px;
   text-align: right;
 }
-.nav-contact button {
-  flex: 1 auto;
+.nav-contact a {
+  font-size: 1.1rem;
+  background-color: lightgray;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  flex: 1;
   border: 5px solid rgb(241, 241, 121);
 }
 
