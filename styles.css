@@ -3,46 +3,45 @@ body {
   padding: 0;
   border: 0;
 }
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: grey;
+}
+
 .wrapper {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
-* {
-  font-family: "Ubuntu", sans-serif;
-  color: grey;
-}
-/*HEADER*/
-.container-medium {
-  width: 50rem;
-  margin-right: auto;
-  margin-left: auto;
-}
 .container-large {
   width: 70rem;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+}
+.container-medium {
+  width: 50rem;
+  margin: 0 auto;
 }
 
-.header {
-  height: 15vh;
-  position: sticky;
-}
+/*HEADER*/
+
 .menu {
   display: flex;
   flex-flow: row-wrap;
   justify-content: space-between;
   align-items: center;
   column-gap: 15px;
+  border-top: 5vh solid lightgray;
 }
-#logo {
+.logo {
   flex: 2;
-  font-size: 1.1rem;
 }
-#nav {
-  flex: 5;
+.logo img {
+  width: 50%;
+  padding: 10px 0;
+}
+.nav {
+  flex: 3;
   display: flex;
   flex-flow: row-wrap;
   justify-content: space-evenly;
@@ -54,30 +53,30 @@ button {
   background-color: lightgray;
   border: none;
   border-radius: 4px;
-  padding: 5px;
+  padding: 10px;
 }
 button:hover {
   font-size: 1.3rem;
 }
-#nav-contact {
+.nav-contact {
   flex: 2;
-  width: 145px;
+  width: auto;
   font-size: 1.1rem;
-  background-color: rgb(241, 241, 121);
   border: none;
   border-radius: 4px;
   padding: 5px;
-  text-align: center;
+  text-align: right;
 }
 .nav-contact button {
   flex: 1 auto;
+  border: 5px solid rgb(241, 241, 121);
 }
 
 /*TITLE*/
 
 .section-title {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 15px;
 }
 
@@ -89,17 +88,20 @@ button:hover {
   justify-content: space-between;
   align-content: stretch;
   align-items: stretch;
-  column-gap: 40px;
-  padding: 35px;
+  column-gap: 9%;
+  padding: 15px;
 }
 .main-img {
+  width: 30%;
+  padding: 0rem 2rem;
   border-radius: 40%;
   box-shadow: 10px 10px 5px rgb(241, 241, 121);
 }
-#about-me p {
+#about-me {
   word-spacing: 0.6rem;
   line-height: 1.3rem;
   font-size: 1.2rem;
+  padding-right: 2rem;
 }
 
 .cv-portfolio {
