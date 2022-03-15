@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: grey;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-large {
+  width: 70rem;
+  margin: 0 auto;
+}
+.container-medium {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+
+.menu {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  border-top: 5vh solid lightgray;
+}
+.logo {
+  flex: 2;
+}
+.logo img {
+  width: 50%;
+  padding: 10px 0;
+}
+.nav {
+  flex: 3;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  width: 145px;
+  font-size: 1.1rem;
+  background-color: lightgray;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+button:hover {
+  font-size: 1.3rem;
+}
+.nav-contact {
+  flex: 2;
+  width: auto;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: right;
+}
+.nav-contact button {
+  flex: 1 auto;
+  border: 5px solid rgb(241, 241, 121);
+}
+.nav a {
+  text-decoration: none;
+}
+.nav-contact a {
+  text-decoration: none;
+}
+
+/*TITLE*/
+
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: lightgray;
+  padding: 25px;
+  text-align: center;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 30vw;
+  margin: 1rem;
+  padding: 1rem;
+}
+input[placeholder] {
+  font-size: 1.2rem;
+}
+label {
+  font-size: 1.5rem;
+}
+.submit {
+  max-width: 10vw;
+  text-align: center;
+}

@@ -1,91 +1,66 @@
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-* {
-  font-family: "Ubuntu", sans-serif;
-  color: grey;
-}
-
-.wrapper {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.container-large {
-  width: 70rem;
-  margin: 0 auto;
-}
-.container-medium {
-  width: 50rem;
-  margin: 0 auto;
-}
-
-/*HEADER*/
-
-.menu {
-  display: flex;
-  flex-flow: row-wrap;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 15px;
-  border-top: 5vh solid lightgray;
-}
-.logo {
-  flex: 2;
-}
-.logo img {
-  width: 50%;
-  padding: 10px 0;
-}
-.nav {
-  flex: 3;
-  display: flex;
-  flex-flow: row-wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-button {
-  width: 145px;
-  font-size: 1.1rem;
-  background-color: lightgray;
-  border: none;
-  border-radius: 4px;
-  padding: 10px;
-}
-button:hover {
-  font-size: 1.3rem;
-}
-.nav-contact {
-  flex: 2;
-  width: auto;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 4px;
-  padding: 5px;
-  text-align: right;
-}
-.nav-contact button {
-  flex: 1 auto;
-  border: 5px solid rgb(241, 241, 121);
-}
-
-/*TITLE*/
-
-.section-title {
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 15px;
-}
-
 /*ARTICLES*/
 
-/*FOOTER*/
+form {
+  height: 60vh;
+}
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+}
+.form-second {
+  margin-left: 5rem;
+}
+label {
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: block;
+}
+input,
+textarea {
+  display: block;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  width: 15vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+input[type="text"] {
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea[type="text"] {
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+textarea#comments {
+  height: 35vh;
+}
+input[placeholder] {
+  text-align: start;
+}
+input[type="submit"] {
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 16px 0;
+  box-sizing: border-box;
+}
 
-footer {
-  background-color: lightgray;
-  padding: 25px;
-  text-align: center;
+input:focus {
+  border: 2px solid black;
 }
