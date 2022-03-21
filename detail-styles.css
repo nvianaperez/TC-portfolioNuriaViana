@@ -23,6 +23,7 @@
   word-spacing: 0.5rem;
   line-height: 1.3rem;
   text-align: left;
+  padding: 1rem;
 }
 .grid-description a {
   font-size: 1.4rem;
