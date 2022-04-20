@@ -7,24 +7,25 @@
   border: 1px solid black;
   flex: 6;
 }
-.client-1 {
+.tab-1 {
   align-self: flex-end;
   flex: 3;
   background-color: rgb(241, 241, 121);
   border-radius: 4px;
   opacity: 60%;
   padding: 35px;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 1.4rem;
-  width: 60%;
+  width: 70%;
 }
-.client-2 {
+.tab-2 {
   flex: 1;
   background-color: rgb(241, 241, 121);
   border-radius: 4px;
   opacity: 60%;
   padding: 35px;
-  margin-top: 10%;
+  margin-top: 2%;
   font-size: 1.4rem;
   width: 80%;
 }
